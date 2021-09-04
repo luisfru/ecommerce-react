@@ -19,7 +19,7 @@ const ProductsCard = ({ category, description, id, image, price, rating, title }
       </div>
       <p>{description}</p>
       <div>{price}</div>
-      <button onClick={handleAddToCart({ category, description, id, image, price, rating, title })}>Add in Cart</button>
+      <button onClick={handleAddToCart({ category, description, id, image, price, rating, title })}>Add to cart</button>
     </div>
   )
 }
