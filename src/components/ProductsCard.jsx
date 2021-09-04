@@ -3,7 +3,7 @@ import React, { useContext } from 'react'
 import CartContext from '../contexts/CartContext'
 
 const ProductsCard = ({ category, description, id, image, price, rating, title }) => {
-  const { addToCart } = useContext(CartConext)
+  const { addToCart } = useContext(CartContext)
 
   const handleAddToCart = product => () => {
     addToCart(product)
